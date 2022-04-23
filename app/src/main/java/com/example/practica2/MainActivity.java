@@ -85,6 +85,8 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Perdiste!", Toast.LENGTH_LONG).show();
                     btnJugar.setEnabled(false);
                     btnReiniciar.setEnabled(true);
+                    puntaje = 0;
+                    puntuacion.setText(Integer.toString(puntaje));
                 }
             }
         });
