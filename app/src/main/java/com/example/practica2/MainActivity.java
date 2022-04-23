@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 nroUsuario = Integer.parseInt(eNumber.getText().toString());
                 if (nroUsuario < 0 || nroUsuario > 5) {
                     Toast.makeText(MainActivity.this, "Numero no valido", Toast.LENGTH_SHORT).show();
-                } else if (aleatorio != nroUsuario || intento > 0){
+                } else if (aleatorio != nroUsuario){
                     Toast.makeText(MainActivity.this, "Segui intentando!", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(MainActivity.this, "Has ganado! El numero era: " + aleatorio, Toast.LENGTH_SHORT).show();
